@@ -9,7 +9,9 @@ public class Testcase {
 	int additionValue = 8;
 	int subtractValue = 2;
 	int multiplicationValue = 15;
-	
+/*
+ * Sameple test for Addition	
+ */
 @Test
 public void addition() {
 	int a = 5;
