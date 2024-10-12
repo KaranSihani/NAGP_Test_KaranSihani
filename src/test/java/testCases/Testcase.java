@@ -6,9 +6,9 @@ import org.testng.annotations.Test;
 
 public class Testcase {
 	
-	int additionValue = 8;
-	int subtractValue = 2;
-	int multiplicationValue = 15;
+	int additionValue = 80;
+	int subtractValue = 20;
+	int multiplicationValue = 150;
 /*
  * Sameple test for Addition	
  */
