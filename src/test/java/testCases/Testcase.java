@@ -13,7 +13,7 @@ public class Testcase {
  * Sameple test for Addition	
  */
 @Test
-public void addition() {
+public void addition2Numbers() {
 	int a = 5;
 	int b=3;
 	int finaladd = a+b;

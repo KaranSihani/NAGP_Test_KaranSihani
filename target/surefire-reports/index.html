@@ -211,11 +211,11 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'multiply')
+data.setCell(0, 1, 'addition')
 data.setCell(0, 2, 'testCases.Testcase')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 14);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addition')
+data.setCell(1, 1, 'multiply')
 data.setCell(1, 2, 'testCases.Testcase')
 data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
@@ -226,7 +226,7 @@ window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 14 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -254,16 +254,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Testcase</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">multiply</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">addition</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">multiply</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">subtraction</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">14 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
